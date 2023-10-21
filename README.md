@@ -40,7 +40,7 @@ Just add into the `pom.xml`:
 
 then, we need two files: `ibm-web-bnd.xml` `ibm-web-ext.xml`
 
-#### `ibm-web-bnd.xml`
+#### [ibm-web-bnd.xml](/ibm-web-bnd.xml)
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <web-bnd
@@ -52,7 +52,7 @@ then, we need two files: `ibm-web-bnd.xml` `ibm-web-ext.xml`
     <virtual-host name="default_host"/>
 </web-bnd>
 ```
-#### `ibm-web-ext.xml`
+#### [ibm-web-ext.xml](/ibm-web-ext.xml)
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <web-ext
