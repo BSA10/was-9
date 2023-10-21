@@ -23,6 +23,14 @@ _NOTE: password need to run this script to get it:_
 docker exec -it CONTAINER_ID cat /tmp/PASSWORD
 ```
 
+Then, simply change the password:
+- Logging to the console
+- Users and Groups
+- Manage Users
+- Select `wsadmin`
+- New Password - _NOTE: no need for the old password_
+- OK
+
 ## Exec
 To get inside the container
 ```sh
