@@ -109,6 +109,15 @@ Then, you need to just logged in to `wsadmin` and use this command:
 execfile('deploy.py')
 ```
 
+#### How you can run `deploy.py`
+Using this IBM docs for run the `deploy.py` without logging inside the `wsadmin.sh` to interact with it.  
+[wsadmin.sh commands options IBM docs]
+
+`-f` option to run the file.
+```sh
+wsadmin.sh -username wsadmin -password wsadmin -lang jython -f deploy.py
+```
+
 # Reference
 
 - [Commands for the AdminApp object using wsadmin scripting](https://www.ibm.com/docs/en/was/9.0.5?topic=scripting-commands-adminapp-object-using-wsadmin)
@@ -117,3 +126,6 @@ execfile('deploy.py')
 - [ibm-web-ext.xml IBM Docs](https://www.ibm.com/docs/en/was-nd/8.5.5?topic=parameters-jsp-engine-configuration)
 - [Installing enterprise applications using wsadmin scripting](https://www.ibm.com/docs/en/was/9.0.5?topic=scripting-installing-enterprise-applications-using-wsadmin)
 - [Update application IBM docs](https://www.ibm.com/docs/en/was/9.0.5?topic=scripting-updating-installed-applications-using-wsadmin-tool)
+- [wsadmin.sh commands options IBM docs] 
+
+[wsadmin.sh commands options IBM docs]:https://www.ibm.com/docs/en/was/9.0.5?topic=scripting-wsadmin-tool
