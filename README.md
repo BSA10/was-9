@@ -125,6 +125,11 @@ AdminApp.update('HelloWorld', 'app', '[-operation update -contents /tmp/demo-2.w
 ```
 IBM Docs: [Update application IBM docs]
 
+### Update Class loader order
+
+In [update-class-loader.py](/script/update-class-loader.py) file.
+
+Based on the IBM Docs for update the module class loader order - [Update Module Class Loader Order] 
 
 # Reference
 
@@ -138,3 +143,4 @@ IBM Docs: [Update application IBM docs]
 
 [Update application IBM docs]:https://www.ibm.com/docs/en/was/9.0.5?topic=scripting-updating-installed-applications-using-wsadmin-tool
 [wsadmin.sh commands options IBM docs]:https://www.ibm.com/docs/en/was/9.0.5?topic=scripting-wsadmin-tool
+[Update Module Class Loader Order]:https://www.ibm.com/docs/en/was-zos/9.0.5?topic=caus-modifying-war-class-loader-mode-using-wsadmin-scripting
