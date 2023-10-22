@@ -118,6 +118,14 @@ Using this IBM docs for run the `deploy.py` without logging inside the `wsadmin.
 wsadmin.sh -username wsadmin -password wsadmin -lang jython -f deploy.py
 ```
 
+### Update Application
+If you want to update the application use this script:
+```sh
+AdminApp.update('HelloWorld', 'app', '[-operation update -contents /tmp/demo-2.war  -usedefaultbindings -nodeployejb]')
+```
+IBM Docs: [Update application IBM docs]
+
+
 # Reference
 
 - [Commands for the AdminApp object using wsadmin scripting](https://www.ibm.com/docs/en/was/9.0.5?topic=scripting-commands-adminapp-object-using-wsadmin)
@@ -125,7 +133,8 @@ wsadmin.sh -username wsadmin -password wsadmin -lang jython -f deploy.py
 - [ibm-web-bnd.xml IBM Docs](https://www.ibm.com/docs/en/was-nd/9.0.5?topic=files-application-bindings)
 - [ibm-web-ext.xml IBM Docs](https://www.ibm.com/docs/en/was-nd/8.5.5?topic=parameters-jsp-engine-configuration)
 - [Installing enterprise applications using wsadmin scripting](https://www.ibm.com/docs/en/was/9.0.5?topic=scripting-installing-enterprise-applications-using-wsadmin)
-- [Update application IBM docs](https://www.ibm.com/docs/en/was/9.0.5?topic=scripting-updating-installed-applications-using-wsadmin-tool)
+- [Update application IBM docs]
 - [wsadmin.sh commands options IBM docs] 
 
+[Update application IBM docs]:https://www.ibm.com/docs/en/was/9.0.5?topic=scripting-updating-installed-applications-using-wsadmin-tool
 [wsadmin.sh commands options IBM docs]:https://www.ibm.com/docs/en/was/9.0.5?topic=scripting-wsadmin-tool
